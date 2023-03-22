@@ -26,7 +26,6 @@ namespace TestTask
         public MainWindow()
         {
             InitializeComponent();
-
             this.Opacity = 0;
 
             var fadeInAnimation = new DoubleAnimation(0, 1, TimeSpan.FromSeconds(1));
